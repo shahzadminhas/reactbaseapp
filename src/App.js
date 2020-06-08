@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import Classes from './classes.js'
 
 function App() {
   return (
-    <div className="App">
-      Hello world from react
+    <div>
+    <Classes className="AIC" startDay="Saturday"/>
+    <Classes className="CNC" startDay="Sunday"/>
     </div>
-  );
+  )
 }
 
 export default App;
